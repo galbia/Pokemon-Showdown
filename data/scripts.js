@@ -2814,8 +2814,8 @@ exports.BattleScripts = {
 			item = 'DeepSeaTooth';
 		} else if (template.species === 'Spiritomb') {
 			item = 'Leftovers';
-		} else if (template.species === 'Scrafty' && counter['Status'] === 0) {
-			item = 'Assault Vest';
+		else if ((template.species === 'Scrafty' || template.species === 'Escavalier' || template.species === 'Slowking' || template.species === 'Azumarill' ) && counter['Status'] === 0) {
+ 			item = 'Assault Vest';
 		} else if (template.species === 'Farfetch\'d') {
 			item = 'Stick';
 		} else if (template.species === 'Amoonguss') {
